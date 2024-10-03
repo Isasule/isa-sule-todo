@@ -13,7 +13,7 @@ box-sizing: border-box;
 
 .todo-app{
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     background: #fff;
     margin: 50px auto 20px;
     padding: 100px 30px 70px;
@@ -58,6 +58,25 @@ input{
     background: transparent;
     padding: 10px;
     font-weight: 14px;
+}
+@media screen and (max-width: 320px) {
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: 10px;
+        background: #edee;
+        border-radius: 30px;
+        padding-left: 10px 30px;
+        margin-bottom: 20px;
+    }
+    input{
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 10px 10px;
+        font-weight: 10px;
+    }
 }
 li > button{
     border: none;

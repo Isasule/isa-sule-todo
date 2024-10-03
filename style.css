@@ -66,8 +66,6 @@ ul li > button:hover{
         padding: 2% 2% 1% 2%;
         background: #6e6e6e;
         border-radius: 20px;
-        color: #fff;
-        cursor: pointer;
         position: absolute;
         margin-left: 50%;
     }

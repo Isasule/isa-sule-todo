@@ -13,7 +13,7 @@ box-sizing: border-box;
 
 .todo-app{
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     background: #fff;
     margin: 50px auto 20px;
     padding: 100px 30px 70px;
@@ -24,23 +24,6 @@ box-sizing: border-box;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-}
-@media screen and (max-width: 320px) {
-    .container{
-        width: 150%;
-        min-height: 100vh;
-        background: rgb(73, 69, 69);
-        padding-top: 10%;
-    }
-    
-    .todo-app{
-        width: 80%;
-        max-width: 500px;
-        background: #fff;
-        margin: 50px auto 20px;
-        padding: 100px 20px 70px;
-        border-radius: 10px;
-    }
 }
 .row{
     display: flex;
@@ -58,25 +41,6 @@ input{
     background: transparent;
     padding: 10px;
     font-weight: 14px;
-}
-@media screen and (max-width: 320px) {
-    .row{
-        display: flex;
-        align-items: center;
-        justify-content: 10px;
-        background: #edee;
-        border-radius: 30px;
-        padding-left: 10px 30px;
-        margin-bottom: 20px;
-    }
-    input{
-        flex: 1;
-        border: none;
-        outline: none;
-        background: transparent;
-        padding: 10px 10px;
-        font-weight: 10px;
-    }
 }
 li > button{
     border: none;
@@ -125,7 +89,7 @@ ul li > button:hover{
     .button{
         border: none;
         outline: none;
-        padding: 10px 20px;
+        padding: 10px 30px;
         background: #6e6e6e;
         color: black;
         cursor: pointer;

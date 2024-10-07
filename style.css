@@ -89,7 +89,7 @@ ul li > button:hover{
         background: #6e6e6e;
         border-radius: 20px;
         position: absolute;
-        margin-left: 50%;
+        margin-left: 60%;
         transition: 0.5s;
     }
     ul li > button:hover{

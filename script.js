@@ -1,4 +1,4 @@
-// Select input box and list container
+
 let inputBox = document.getElementById("input-box");
 let listContainer = document.getElementById("list-container");
 let tasks = [];
@@ -168,5 +168,4 @@ function loadData() {
     }
 }
 
-// Call loadData on page load
 window.onload = loadData;
